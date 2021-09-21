@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffff;
+  color: white;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.btn {
+  color: rgba(255, 255, 255, 0.829);
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-weight: 320;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: color 0.2s, background-color 0.2s, border 0.2s;
+}
+
+.universe:hover {
+  background-color: rgba(167, 233, 14, 0.925);
+  color: black;
+}
+
+.earth {
+  color: black;
+  background-color: rgba(167, 233, 14, 0.582);
+}
+
+.earth:hover,
+.earth:active {
+  background-color: rgba(167, 233, 14, 0.925);
+}
+
+header {
+  max-width: 10000px;
+  background-image: url(galaxy-3608029.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.text-box {
+  max-width: 10000px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.nav {
+  position: absolute;
+  list-style: none;
+  margin-top: 50px;
+  left: 20%;
+}
+
+.nav li a {
+  padding: 8px 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3;
+}
+
+.nav li a:hover {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
